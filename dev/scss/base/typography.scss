@@ -1,0 +1,78 @@
+/* 
+
+    Yazi tipi tanimlamalari ve varsayilan stilleri
+
+*/
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('../font/DINPro-CondensedMedium.eot');
+    src: url('../font/DINPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/DINPro-CondensedMedium.woff2') format('woff2'),
+        url('../font/DINPro-CondensedMedium.woff') format('woff'),
+        url('../font/DINPro-CondensedMedium.ttf') format('truetype'),
+        url('../font/DINPro-CondensedMedium.svg#DINPro-CondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('../font/DINPro-CondensedBold.eot');
+    src: url('../font/DINPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/DINPro-CondensedBold.woff2') format('woff2'),
+        url('../font/DINPro-CondensedBold.woff') format('woff'),
+        url('../font/DINPro-CondensedBold.ttf') format('truetype'),
+        url('../font/DINPro-CondensedBold.svg#DINPro-CondensedBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/ProximaNovaExCn-Semibold.eot?') format('eot'),
+        url('../font/ProximaNovaExCn-Semibold.otf') format('opentype'),
+        url('../font/ProximaNovaExCn-Semibold.woff') format('woff'),
+        url('../font/ProximaNovaExCn-Semibold.ttf') format('truetype'),
+        url('../font/ProximaNovaExCn-Semibold.svg#ProximaNovaExCn-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/ProximaNova-Regular.eot?') format('eot'),
+        url('../font/ProximaNova-Regular.otf') format('opentype'),
+        url('../font/ProximaNova-Regular.woff') format('woff'),
+        url('../font/ProximaNova-Regular.ttf') format('truetype'),
+        url('../font/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/ProximaNova-Extrabld.eot?') format('eot'),
+        url('../font/ProximaNova-Extrabld.otf') format('opentype'),
+        url('../font/ProximaNova-Extrabld.woff') format('woff'),
+        url('../font/ProximaNova-Extrabld.ttf') format('truetype'),
+        url('../font/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/ProximaNova-Bold.eot?') format('eot'),
+        url('../font/ProximaNova-Bold.otf') format('opentype'),
+        url('../font/ProximaNova-Bold.woff') format('woff'),
+        url('../font/ProximaNova-Bold.ttf') format('truetype'),
+        url('../font/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
