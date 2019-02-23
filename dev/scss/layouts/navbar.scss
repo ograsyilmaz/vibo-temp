@@ -1,0 +1,33 @@
+.navbar {
+    margin-top: 47px;
+
+    &-toggler {
+        border-color: $white-color;
+    }
+
+    &-collapse {
+        text-align: center;
+    }
+
+    // &-brand {
+    //     a{
+    //         width: 100px;
+    //         height: 43px;
+    //     }
+
+    // }
+}
+
+.nav {
+    &-link {
+        font-family: $main-font;
+        font-size: 15.89px;
+        color: $menu-font-color;
+        font-weight: 600;
+        padding-right: 1.59375rem !important;
+        padding-left: 1.59375rem !important;
+
+
+    }
+
+}

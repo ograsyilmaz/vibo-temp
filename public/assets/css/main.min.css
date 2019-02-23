@@ -333,7 +333,7 @@ img {
   font-weight: 400 !important; }
 
 .text-main {
-  font-family: "DIN Pro Cond", sans-serif !important; }
+  font-family: "Work Sans", sans-serif !important; }
 
 .text-second {
   font-family: "Proxima Nova", sans-serif !important; }
@@ -343,9 +343,6 @@ img {
 
 .text-second-color {
   color: #2dbfa2 !important; }
-
-body {
-  background-color: #fbfcff; }
 
 @font-face {
   font-family: 'DIN Pro Cond';
@@ -384,6 +381,9 @@ body {
   src: url(../font/ProximaNova-Bold.eot?) format("eot"), url(../font/ProximaNova-Bold.otf) format("opentype"), url(../font/ProximaNova-Bold.woff) format("woff"), url(../font/ProximaNova-Bold.ttf) format("truetype"), url(../font/ProximaNova-Bold.svg#ProximaNova-Bold) format("svg");
   font-weight: 700;
   font-style: normal; }
+
+body {
+  background-color: #14e9ed; }
 
 .footer {
   background-color: #212b36;
@@ -492,3 +492,20 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 5px; } }
+
+.navbar {
+  margin-top: 47px; }
+
+.navbar-toggler {
+  border-color: #fff; }
+
+.navbar-collapse {
+  text-align: center; }
+
+.nav-link {
+  font-family: "Work Sans",sans-serif;
+  font-size: 15.89px;
+  color: #fff;
+  font-weight: 600;
+  padding-right: 1.59375rem !important;
+  padding-left: 1.59375rem !important; }
