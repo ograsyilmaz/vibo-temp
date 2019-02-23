@@ -2,6 +2,9 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal; }
 
+.branding-phone, .navbar-collapse {
+  text-align: center; }
+
 a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
   margin: 0;
   padding: 0;
@@ -344,6 +347,10 @@ img {
 .text-second-color {
   color: #2dbfa2 !important; }
 
+.branding-phone-dialog, .branding-phone-title {
+  font-family: "Work Sans",sans-serif;
+  color: #fff; }
+
 @font-face {
   font-family: 'DIN Pro Cond';
   src: url(../font/DINPro-CondensedMedium.eot);
@@ -384,6 +391,28 @@ img {
 
 body {
   background-color: #14e9ed; }
+
+.branding-phone {
+  margin-top: 153px; }
+
+.branding-phone-title {
+  font-size: 45px;
+  font-weight: 900; }
+
+.branding-phone-dialog {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 28px;
+  margin-bottom: 45px; }
+
+.branding-phone-button button, .nav-link {
+  font-family: "Work Sans",sans-serif;
+  color: #fff;
+  font-weight: 600; }
+
+.branding-phone-button button {
+  padding: 12px 32px 18px 34px;
+  font-size: 14px; }
 
 .footer {
   background-color: #212b36;
@@ -499,13 +528,7 @@ body {
 .navbar-toggler {
   border-color: #fff; }
 
-.navbar-collapse {
-  text-align: center; }
-
 .nav-link {
-  font-family: "Work Sans",sans-serif;
   font-size: 15.89px;
-  color: #fff;
-  font-weight: 600;
   padding-right: 1.59375rem !important;
   padding-left: 1.59375rem !important; }
