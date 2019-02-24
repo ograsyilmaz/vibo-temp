@@ -5,6 +5,10 @@
 .branding-phone, .navbar-collapse {
   text-align: center; }
 
+.header, .marketing {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
   margin: 0;
   padding: 0;
@@ -393,11 +397,9 @@ body {
   background-color: #14e9ed; }
 
 .header {
-  min-height: 998px;
+  min-height: 1000px;
   background-image: url(/assets/img/branding-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-position: center; }
 
 .branding-phone {
   margin-top: 153px; }
@@ -420,6 +422,15 @@ body {
 .branding-phone-button button {
   padding: 12px 32px 18px 34px;
   font-size: 14px; }
+
+.branding-phone-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 70px; }
 
 .footer {
   background-color: #212b36;
@@ -539,3 +550,23 @@ body {
   font-size: 15.89px;
   padding-right: 1.59375rem !important;
   padding-left: 1.59375rem !important; }
+
+.marketing {
+  background-image: url(/assets/img/wawe-bg.png);
+  top: -243px;
+  position: relative; }
+
+.marketing-img {
+  margin-top: 444px; }
+
+.marketing-items {
+  top: 373px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.marketing-babel {
+  margin-top: 97px; }

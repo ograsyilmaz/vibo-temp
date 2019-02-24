@@ -6,7 +6,7 @@
 */
 
 .header{
-    min-height: 998px;
+    min-height: 1000px;
     background-image: url(/assets/img/branding-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -43,5 +43,10 @@
             color: $menu-font-color;
             font-weight: 600;
         }
+    }
+    &-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
     }
 }

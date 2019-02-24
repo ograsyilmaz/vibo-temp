@@ -1,0 +1,35 @@
+.marketing {
+
+    background-image: url(/assets/img/wawe-bg.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    top: -243px;
+    position: relative;
+
+    &-img {
+        margin-top: 444px;
+    }
+
+    &-items {
+        top: 373px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    &-free {}
+
+    &-babel {
+        margin-top: 97px;
+    }
+
+    &-rulo {}
+
+    &-bluphone {}
+
+    &-title {}
+
+    &-description {}
+}
