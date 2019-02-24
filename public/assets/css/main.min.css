@@ -639,8 +639,8 @@ body {
   margin-bottom: 34px; }
 
 .info-list h1, .info-story button {
-  font-weight: 600;
   font-family: "Work Sans",sans-serif;
+  font-weight: 600;
   font-size: 15px; }
 
 .info-story button {
@@ -656,9 +656,11 @@ body {
   align-items: center;
   margin-bottom: 8px; }
 
-.info-list ul {
+.code-branding-ios, .info-list ul {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: -ms-flexbox; }
+
+.info-list ul {
   display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
@@ -676,12 +678,14 @@ body {
   display: inline-block;
   color: #233148; }
 
+.code-branding p, .info-list p {
+  font-weight: 400;
+  font-family: "Work Sans",sans-serif; }
+
 .info-list p {
   padding-left: 39px;
-  font-family: "Work Sans",sans-serif;
   font-size: 15px;
   color: #fff;
-  font-weight: 400;
   display: none; }
 
 .info-list img {
@@ -698,3 +702,49 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; } }
+
+.code {
+  margin-top: 182px; }
+
+.code-img {
+  margin-right: 74px; }
+
+.code-branding-android img, .code-branding-ios img {
+  margin-right: 15px; }
+
+.code-branding {
+  margin-left: 74px;
+  margin-top: 18px; }
+
+.code-branding p {
+  font-size: 14px;
+  color: #6a6d89; }
+
+.code-branding h1 {
+  font-family: "Work Sans",sans-serif;
+  font-size: 30px;
+  color: #233148;
+  font-weight: 700;
+  margin-bottom: 45px; }
+
+.code-branding-android, .code-branding-ios {
+  font-family: "Work Sans",sans-serif;
+  font-size: 15px;
+  color: #233148;
+  font-weight: 600;
+  margin-bottom: 45px;
+  align-content: center; }
+
+.code-branding-ios {
+  display: flex;
+  -ms-flex-line-pack: center; }
+
+.code-branding-android {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center; }
+
+@media screen and (max-width: 425px) {
+  .code-img {
+    margin-right: 0; } }

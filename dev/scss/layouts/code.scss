@@ -1,0 +1,62 @@
+.code {
+    margin-top: 182px;
+
+    &-img {
+        margin-right: 74px;
+    }
+
+    &-branding {
+        margin-left: 74px;
+        margin-top: 18px;
+p{
+    font-family: $main-font;
+    font-size: 14px;
+    color: #6a6d89;
+    font-weight: normal;
+}
+        h1 {
+            font-family: $main-font;
+            font-size: 30px;
+            color: #233148;
+            font-weight: bold;
+            margin-bottom: 45px;
+        }
+
+        &-ios {
+            margin-bottom: 41px;
+            font-family: $main-font;
+            font-size: 15px;
+            color: #233148;
+            font-weight: 600;
+            margin-bottom: 45px;
+            display: flex;
+            align-content: center;
+            img{
+                margin-right: 15px;
+            }
+        }
+
+        &-android {
+            margin-bottom: 22px;
+            font-family: $main-font;
+            font-size: 15px;
+            color: #233148;
+            font-weight: 600;
+            margin-bottom: 45px;
+            display: flex;
+            align-content: center;
+            img{
+                margin-right: 15px;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .code-img{
+        margin-right: 0px;
+    }
+}
