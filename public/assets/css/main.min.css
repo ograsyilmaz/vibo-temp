@@ -392,6 +392,13 @@ img {
 body {
   background-color: #14e9ed; }
 
+.header {
+  min-height: 998px;
+  background-image: url(/assets/img/branding-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .branding-phone {
   margin-top: 153px; }
 
@@ -523,7 +530,7 @@ body {
     margin-bottom: 5px; } }
 
 .navbar {
-  margin-top: 47px; }
+  padding-top: 47px; }
 
 .navbar-toggler {
   border-color: #fff; }
