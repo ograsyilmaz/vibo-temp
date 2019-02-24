@@ -609,4 +609,5 @@ body {
     -ms-flex-pack: center;
     justify-content: center; }
   .marketing-items {
-    margin-top: 100px; } }
+    margin-top: 100px;
+    text-align: center; } }
