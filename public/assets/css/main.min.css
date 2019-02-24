@@ -615,7 +615,10 @@ body {
     justify-content: center; }
   .marketing-items {
     margin-top: 100px;
-    text-align: center; } }
+    text-align: center;
+    margin-bottom: 0; }
+  .info {
+    margin-top: -142px; } }
 
 .info-story {
   text-align: right;
@@ -646,9 +649,6 @@ body {
   padding: 15px 41px 22px 45px;
   border-radius: 3px; }
 
-.info-list {
-  padding-left: 75.5px ul; }
-
 .info-list-img {
   display: flex;
   -webkit-box-align: center;
@@ -662,7 +662,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-left: 75.5px; }
 
 .info-list li {
   display: block;
@@ -685,3 +686,15 @@ body {
 
 .info-list img {
   display: inline-block; }
+
+@media screen and (max-width: 425px) {
+  .info-story {
+    text-align: center;
+    padding-right: 0; }
+  .info-list ul {
+    padding-left: 0;
+    margin-top: 15px; }
+  .info-list-img {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
