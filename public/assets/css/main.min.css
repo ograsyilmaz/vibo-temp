@@ -9,6 +9,9 @@
 .branding-phone, .navbar-collapse {
   text-align: center; }
 
+.footer-list, .footer-social ul, .info-list ul {
+  -webkit-box-direction: normal; }
+
 a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
   margin: 0;
   padding: 0;
@@ -298,7 +301,7 @@ img {
   border: 5px solid #fbfcff; }
 
 .b-main {
-  border-color: #fafafa !important; }
+  border-color: #fff !important; }
 
 .b-second {
   border-color: #2dbfa2 !important; }
@@ -346,7 +349,7 @@ img {
   font-family: "Proxima Nova", sans-serif !important; }
 
 .text-main-color {
-  color: #fafafa !important; }
+  color: #fff !important; }
 
 .text-second-color {
   color: #2dbfa2 !important; }
@@ -394,7 +397,7 @@ img {
   font-style: normal; }
 
 body {
-  background-color: #14e9ed; }
+  background-color: #fff; }
 
 .header {
   min-height: 1000px;
@@ -547,6 +550,10 @@ body {
     margin-right: 0;
     margin-bottom: 5px; } }
 
+.info-list-img, .marketing-items {
+  display: -webkit-box;
+  display: -ms-flexbox; }
+
 .navbar {
   padding-top: 47px; }
 
@@ -560,8 +567,8 @@ body {
   padding-left: 1.59375rem !important; }
 
 .marketing-item-description, .marketing-item-title {
-  font-family: "Work Sans",sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "Work Sans",sans-serif; }
 
 .marketing {
   background-image: url(/assets/img/wawe-bg.png);
@@ -573,8 +580,6 @@ body {
 
 .marketing-items {
   margin-top: 278px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -611,3 +616,72 @@ body {
   .marketing-items {
     margin-top: 100px;
     text-align: center; } }
+
+.info-story {
+  text-align: right;
+  padding-right: 75.5px; }
+
+.info-story h1 {
+  font-family: "Work Sans",sans-serif;
+  font-size: 30px;
+  color: #233148;
+  font-weight: 700;
+  margin-bottom: 54px; }
+
+.info-story p {
+  font-family: "Work Sans",sans-serif;
+  font-size: 14px;
+  color: #6a6d89;
+  font-weight: 400;
+  margin-bottom: 34px; }
+
+.info-list h1, .info-story button {
+  font-weight: 600;
+  font-family: "Work Sans",sans-serif;
+  font-size: 15px; }
+
+.info-story button {
+  background-color: #33d2fd;
+  color: #fff;
+  padding: 15px 41px 22px 45px;
+  border-radius: 3px; }
+
+.info-list {
+  padding-left: 75.5px ul; }
+
+.info-list-img {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 8px; }
+
+.info-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.info-list li {
+  display: block;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 21px 0 26px 21px; }
+
+.info-list h1 {
+  padding-left: 20px;
+  display: inline-block;
+  color: #233148; }
+
+.info-list p {
+  padding-left: 39px;
+  font-family: "Work Sans",sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  display: none; }
+
+.info-list img {
+  display: inline-block; }
