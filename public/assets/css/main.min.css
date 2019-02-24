@@ -572,7 +572,7 @@ body {
   margin-top: 444px; }
 
 .marketing-items {
-  margin-top: 373px;
+  margin-top: 278px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,4 +597,16 @@ body {
   padding: 59px 27px 41px 31px;
   text-align: center;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  display: inline-block; }
+
+@media screen and (max-width: 768px) {
+  .marketing-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .marketing-items {
+    margin-top: 100px; } }

@@ -13,18 +13,16 @@
     }
 
     &-items {
-        margin-top: 373px;
+        margin-top: 278px;
 
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 210px;
-        
-   
+
+
     }
 
-    &-free {
-       
-    }
+    &-free {}
 
     &-babel {
         margin-top: 97px;
@@ -41,8 +39,8 @@
         font-size: 14px;
         color: #233148;
         font-weight: 600;
-margin-top: 35px;
-margin-bottom: 30px;
+        margin-top: 35px;
+        margin-bottom: 30px;
     }
 
     &-item-description {
@@ -51,12 +49,27 @@ margin-bottom: 30px;
         color: #6a6d89;
         font-weight: normal;
     }
-    &-item-img{
-        
-    }
-    &-item-imj{
+
+    &-item-img {}
+
+    &-item-imj {
         padding: 59px 27px 41px 31px;
         text-align: center;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);   
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .marketing {
+        &-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-items {
+            margin-top: 100px;
+        }
     }
 }
