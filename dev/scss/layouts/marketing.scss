@@ -16,10 +16,15 @@
         margin-top: 373px;
 
         display: flex;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        margin-bottom: 210px;
+        
+   
     }
 
-    &-free {}
+    &-free {
+       
+    }
 
     &-babel {
         margin-top: 97px;
@@ -27,9 +32,31 @@
 
     &-rulo {}
 
-    &-bluphone {}
+    &-bluephone {
+        margin-top: 97px;
+    }
 
-    &-title {}
+    &-item-title {
+        font-family: $main-font;
+        font-size: 14px;
+        color: #233148;
+        font-weight: 600;
+margin-top: 35px;
+margin-bottom: 30px;
+    }
 
-    &-description {}
+    &-item-description {
+        font-family: $main-font;
+        font-size: 14px;
+        color: #6a6d89;
+        font-weight: normal;
+    }
+    &-item-img{
+        
+    }
+    &-item-imj{
+        padding: 59px 27px 41px 31px;
+        text-align: center;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);   
+    }
 }

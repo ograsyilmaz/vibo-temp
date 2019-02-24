@@ -2,12 +2,12 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal; }
 
-.branding-phone, .navbar-collapse {
-  text-align: center; }
-
 .header, .marketing {
   background-repeat: no-repeat;
   background-size: cover; }
+
+.branding-phone, .navbar-collapse {
+  text-align: center; }
 
 a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
   margin: 0;
@@ -351,7 +351,7 @@ img {
 .text-second-color {
   color: #2dbfa2 !important; }
 
-.branding-phone-dialog, .branding-phone-title {
+.branding-phone-button button, .branding-phone-dialog, .branding-phone-title, .nav-link {
   font-family: "Work Sans",sans-serif;
   color: #fff; }
 
@@ -414,11 +414,6 @@ body {
   margin-top: 28px;
   margin-bottom: 45px; }
 
-.branding-phone-button button, .nav-link {
-  font-family: "Work Sans",sans-serif;
-  color: #fff;
-  font-weight: 600; }
-
 .branding-phone-button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -432,6 +427,7 @@ body {
 .branding-phone-button button {
   padding: 12px 32px 18px 34px;
   font-size: 14px;
+  font-weight: 600;
   margin: 1rem; }
 
 .branding-phone-img {
@@ -559,8 +555,13 @@ body {
 
 .nav-link {
   font-size: 15.89px;
+  font-weight: 600;
   padding-right: 1.59375rem !important;
   padding-left: 1.59375rem !important; }
+
+.marketing-item-description, .marketing-item-title {
+  font-family: "Work Sans",sans-serif;
+  font-size: 14px; }
 
 .marketing {
   background-image: url(/assets/img/wawe-bg.png);
@@ -576,7 +577,24 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 210px; }
 
-.marketing-babel {
+.marketing-babel, .marketing-bluephone {
   margin-top: 97px; }
+
+.marketing-item-title {
+  color: #233148;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 30px; }
+
+.marketing-item-description {
+  color: #6a6d89;
+  font-weight: 400; }
+
+.marketing-item-imj {
+  padding: 59px 27px 41px 31px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
