@@ -36,12 +36,17 @@
     }
 
     &-button {
+        display: flex;
+        justify-content: center;
+      
+        flex-wrap: wrap;
         button {
             padding: 12px 32px  18px 34px;
             font-family: $main-font;
             font-size: 14px;
             color: $menu-font-color;
             font-weight: 600;
+            margin: 1rem;
         }
     }
     &-img{

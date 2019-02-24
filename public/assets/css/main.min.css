@@ -419,9 +419,20 @@ body {
   color: #fff;
   font-weight: 600; }
 
+.branding-phone-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
 .branding-phone-button button {
   padding: 12px 32px 18px 34px;
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 1rem; }
 
 .branding-phone-img {
   display: -webkit-box;
@@ -560,8 +571,7 @@ body {
   margin-top: 444px; }
 
 .marketing-items {
-  top: 373px;
-  position: relative;
+  margin-top: 373px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
