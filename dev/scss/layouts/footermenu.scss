@@ -1,0 +1,75 @@
+.footer-menu {
+    &-compony {
+        p{
+            font-family: $main-font;
+            font-size: 15px;
+            color: #233148;
+            font-weight: 600;
+            margin-bottom: 31px;
+        }
+        li{
+            font-family: $main-font;
+            font-size: 14px;
+            color: #6a6d89;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+    }
+
+    &-development {  p{
+        font-family: $main-font;
+        font-size: 15px;
+        color: #233148;
+        font-weight: 600;
+        margin-bottom: 31px;
+    }
+    li{
+        font-family: $main-font;
+        font-size: 14px;
+        color: #6a6d89;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }}
+
+    &-community {  p{
+        font-family: $main-font;
+        font-size: 15px;
+        color: #233148;
+        font-weight: 600;
+        margin-bottom: 31px;
+    }
+    li{
+        font-family: $main-font;
+        font-size: 14px;
+        color: #6a6d89;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }}
+
+    &-ınfo {  p{
+        font-family: $main-font;
+        font-size: 15px;
+        color: #233148;
+        font-weight: 600;
+        margin-bottom: 31px;
+    }
+    li{
+        font-family: $main-font;
+        font-size: 14px;
+        color: #6a6d89;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+

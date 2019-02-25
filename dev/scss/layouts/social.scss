@@ -1,0 +1,38 @@
+.social {
+    background-color: #233148;
+    min-height: 99px;
+    display: flex;
+    align-items: center;
+    &-icon {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-basis: auto;
+            flex-direction: row;
+        }
+
+        i {
+            font-size: 20px;
+            color: #ffecfb;
+        }
+
+    }
+
+    &-text {
+        p{
+            color: #ffffff;
+            font-family: $main-font;
+            font-size: 14px;
+            color: $menu-font-color;
+            font-weight: normal;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .social-icon{
+margin-top: 35px;
+    }
+}

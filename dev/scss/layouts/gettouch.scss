@@ -1,0 +1,33 @@
+.gettouch{
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 36px;
+    h1{
+        font-family: $main-font;
+        font-size: 30px;
+        color: #233148;
+        font-weight: 6000;
+        margin-bottom: 15px;
+    }
+    p{
+        font-family: $main-font;
+        font-size: 14px;
+        color: #6a6d89;
+        font-weight: normal;
+        margin-bottom: 67px;
+    }
+    input{
+        padding: 17px 39px 21px 48px;
+        background-color: #47c3fa;
+        font-family: $main-font;
+        font-size: 15px;
+        color: #233148;
+        font-weight: 6000;
+        margin-bottom: 87px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
