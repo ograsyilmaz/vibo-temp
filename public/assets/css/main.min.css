@@ -2,15 +2,19 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal; }
 
-.header, .marketing {
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .branding-phone, .navbar-collapse {
   text-align: center; }
 
 .footer-list, .footer-social ul, .info-list ul {
   -webkit-box-direction: normal; }
+
+.header, .store {
+  min-height: 1000px;
+  background-position: center; }
+
+.header, .marketing, .store {
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, ul, var, video {
   margin: 0;
@@ -400,9 +404,7 @@ body {
   background-color: #fff; }
 
 .header {
-  min-height: 1000px;
-  background-image: url(/assets/img/branding-bg.png);
-  background-position: center; }
+  background-image: url(/assets/img/branding-bg.png); }
 
 .branding-phone {
   margin-top: 153px; }
@@ -656,11 +658,9 @@ body {
   align-items: center;
   margin-bottom: 8px; }
 
-.code-branding-ios, .info-list ul {
-  display: -webkit-box;
-  display: -ms-flexbox; }
-
 .info-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -ms-flex-direction: column;
@@ -704,7 +704,8 @@ body {
     justify-content: center; } }
 
 .code {
-  margin-top: 182px; }
+  margin-top: 182px;
+  margin-bottom: 75px; }
 
 .code-img {
   margin-right: 74px; }
@@ -728,23 +729,80 @@ body {
   margin-bottom: 45px; }
 
 .code-branding-android, .code-branding-ios {
-  font-family: "Work Sans",sans-serif;
   font-size: 15px;
-  color: #233148;
   font-weight: 600;
   margin-bottom: 45px;
-  align-content: center; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  align-content: center;
+  color: #233148;
+  font-family: "Work Sans",sans-serif; }
 
 .code-branding-ios {
   display: flex;
   -ms-flex-line-pack: center; }
 
 .code-branding-android {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: center; }
 
 @media screen and (max-width: 425px) {
   .code-img {
     margin-right: 0; } }
+
+.store {
+  background-image: url(/assets/img/store-bg.png);
+  padding-top: 107px; }
+
+.store-now {
+  padding-left: 157px; }
+
+.store-now h1 {
+  font-family: "Work Sans",sans-serif;
+  font-size: 30px;
+  color: #233148;
+  font-weight: 700;
+  margin-top: 163px; }
+
+.store-now p {
+  font-family: "Work Sans",sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 40px; }
+
+.store-now-shop {
+  margin-top: 65px; }
+
+.store-now-shop img {
+  margin-right: 1rem; }
+
+.store-img {
+  padding-left: 180px; }
+
+@media screen and (max-width: 425px) {
+  .store-img, .store-now {
+    padding-left: 0;
+    text-align: center; } }
+
+@media screen and (max-width: 768px) {
+  .store-now-button {
+    margin-top: 10px !important; } }
+
+.store-now-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: -39px; }
+
+.store-now-button p {
+  color: #ffecfb;
+  background-color: #fa5880;
+  font-family: "Work Sans",sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 28px;
+  display: inline-block; }

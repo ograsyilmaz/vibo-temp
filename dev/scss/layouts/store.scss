@@ -1,0 +1,80 @@
+.store {
+    min-height: 1000px;
+    background-image: url(/assets/img/store-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 107px;
+
+    &-now {
+        padding-left: 157px;
+
+        h1 {
+            font-family: $main-font;
+            font-size: 30px;
+            color: #233148;
+            font-weight: bold;
+            margin-top: 163px;
+        }
+
+        p {
+            font-family: $main-font;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: normal;
+            margin-top: 40px;
+        }
+
+        &-shop {
+            margin-top: 65px;
+
+            img {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    &-img {
+        padding-left: 180px;
+
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .store {
+        &-now {
+            padding-left: 0;
+            text-align: center;
+        }
+
+        &-img {
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .store-now-button {
+        margin-top: 10px !important;
+    }
+}
+
+.store-now-button {
+    display: flex;
+    justify-content: center;
+    margin-top: -39px;
+
+    p {
+        color: #ffecfb;
+        background-color: #fa5880;
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 28px;
+        display: inline-block;
+    }
+
+}
